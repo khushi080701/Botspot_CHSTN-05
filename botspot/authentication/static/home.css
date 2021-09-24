@@ -6,6 +6,6 @@ html {
 body {
 	margin: 0 auto;
 	/* background-color: #222; */
-	background-image: url(../assets/back.png);
+	background-image: url("../static/back.png");
 	position: relative;
 }
