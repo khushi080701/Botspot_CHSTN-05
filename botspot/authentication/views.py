@@ -15,7 +15,7 @@ from .forms import LoginForm, SignUpForm
 
 def home(request) :
     return render(request,"index.html")
-def login_view(request):
+def login(request):
     form = LoginForm(request.POST or None)
 
     msg = None
@@ -36,7 +36,7 @@ def login_view(request):
     return render(request, "login.html", {"form": form, "msg": msg})
 
 
-def register_user(request):
+def register(request):
     msg = None
     success = False
 
@@ -59,4 +59,4 @@ def register_user(request):
     else:
         form = SignUpForm()
 
-    return render(request, "accounts/register.html", {"form": form, "msg": msg, "success": success})
+    return render(request, "register.html", {"form": form, "msg": msg, "success": success})
