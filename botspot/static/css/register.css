@@ -165,7 +165,7 @@
 	padding: 20px 40px;
 }
 .login_form .font {
-	font-size: 20px;
+	font-size: 25px;
 	color: #130f40;
 	margin: 5px 0;
 }
@@ -178,9 +178,9 @@
 	border: 1px solid silver;
 }
 
-.input-fields {
+/* .input-fields {
 	width: 25px;
-}
+} */
 .login_form .font2 {
 	margin-top: 30px;
 }
@@ -288,19 +288,19 @@
 }
 @media screen and (min-width: 1440px) {
 	.collapsible {
-		width: 1000px;
+		width: 550px;
 	}
 	.full-chat-block {
-		width: 1000px;
+		width: 550px;
 	}
 	.outer-container {
-		min-height: 542px;
+		min-height: 550px;
 	}
 	/* .chat-bar-collapsible {
 		right: 550px;
 	} */
 	.chat-bar-collapsible {
-		left: 250px;
+		left: 450px;
 		top: 80px;
 	}
 	.login_form button {
@@ -310,7 +310,7 @@
 		width: 375px;
 	}
 	.login_form input {
-		width: 150px;
+		width: 250px;
 	}
 	.login_form #email_error,
 	.login_form #pass_error {

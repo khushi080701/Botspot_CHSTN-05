@@ -19,16 +19,16 @@
 			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="static/css/register.css" />
-		<link rel="stylesheet" href="static/css/home.css" />
+		<link rel="stylesheet" href="./css/register.css" />
+		<link rel="stylesheet" href="./css/home.css" />
 		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	</head>
 
 	<body>
-		<div class="image-wrapper" href="index.html">
-			<a href="index.html">
+		<div class="image-wrapper" href="./index.html">
+			<a href="./index.html">
 				<img
-					src="./static/assets/bot-sign-design-robot-logo-template-modern-flat-vector-27973154.jpg"
+					src="./assets/bot-sign-design-robot-logo-template-modern-flat-vector-27973154.jpg"
 					class="main-page-nav"
 				/>
 			</a>
@@ -41,7 +41,7 @@
 					id="chat-icon"
 					style="color: #fff"
 				/> -->
-				Login
+				Register
 				<!-- <i id="chat-icon" style="color: #fff;" class="fas fa-robot"></i> -->
 			</button>
 
@@ -53,35 +53,30 @@
 							<!-- Messages -->
 							<form
 								class="login_form"
-								action="./dashboard/index.html"
+								action="../dashboard/index.html"
 								method="get"
 								name="form"
 								onsubmit="return validated()"
 							>
-								<!-- <div class="font" style="margin-top: 25px">First Name</div>
-								<input autocomplete="off" type="text" name="firstname" />
-								<div class="font" style="margin-top: 25px">Last Name</div>
-								<input autocomplete="off" type="text" name="lastname" />
-								<div class="font" style="margin-top: 25px">Email</div>
-								<input autocomplete="off" type="text" name="email" />
-								<div id="email_error">Please fill up your Email</div>
-								<div class="font font2">Password</div>
-								<input type="password" name="password" />
-								<div id="pass_error">Please fill up your Password</div>
-								<button type="submit">Login</button>
-								<button type="button" style="margin-top: 1px">
-									<a href="./register.html">Register</a>
-								</button> -->
 								<label for="firstname" class="font">First Name</label>
 								<input type="text" name="firstname" class="input-fields" />
-								<label for="firstname" class="font">First Name</label>
+								<br /><br />
+								<label for="firstname" class="font">Last Name</label>
 								<input type="text" name="firstname" class="input-fields" />
-								<label for="lastname" class="font">Last Name</label>
-								<input type="text" name="lastname" class="input-fields" />
-								<label for="firstname">First Name</label>
-								<input type="text" />
-								<label for="firstname">First Name</label>
-								<input type="text" />
+								<br /><br />
+								<label for="phonenumber" class="font">Phone Number</label>
+								<input type="tel" name="phonenumber" class="input-fields" />
+								<br /><br />
+								<label for="email" class="font">Email</label>
+								<input type="email" name="email" class="input-fields" />
+								<br /><br />
+								<label for="date" class="font">Date of Birth</label>
+								<input type="date" name="date" class="input-fields" />
+								<br /><br />
+								<label for="password" class="font">Password</label>
+								<input type="password" name="password" class="input-fields" />
+								<br /><br />
+								<button type="submit" style="margin-top: 3px">Register</button>
 							</form>
 
 							<!-- User input box -->
@@ -134,7 +129,7 @@
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script> -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="static/scripts/responses.js"></script>
-	<script src="static/scripts/chat.js"></script>
-	<script src="static/scripts/validation.js"></script>
+	<script src="./scripts/responses.js"></script>
+	<script src="./scripts/chat.js"></script>
+	<script src="./scripts/validation.js"></script>
 </html>
